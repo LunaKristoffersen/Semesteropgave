@@ -1,0 +1,246 @@
+@font-face {
+    font-family: SarpanchRegular;
+    src: url('../fonts/Sarpanch-Regular.ttf');
+}
+@font-face {
+    font-family: SarpanchMedium;
+    src: url('../fonts/Sarpanch-Medium.ttf');
+}
+@font-face {
+    font-family: SarpanchSemiBold;
+    src: url('../fonts/Sarpanch-SemiBold.ttf');
+}
+@font-face {
+    font-family: SarpanchBold;
+    src: url('../fonts/Sarpanch-Bold.ttf');
+}
+@font-face {
+    font-family: SarpanchExtraBold;
+    src: url('../fonts/Sarpanch-ExtraBold.ttf');
+}
+@font-face {
+    font-family: SarpanchBlack;
+    src: url('../fonts/Sarpanch-Black.ttf');
+}
+
+body{
+    background-color: #1e1f2c;
+    background-image: url("../images/asfalt-light.png"); /*Image obtained from: https://www.transparenttextures.com/*/
+    margin: 0;
+}
+
+#deskNav{
+    padding: 32px 0px 32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: all 0.2s ease-in-out;
+}
+
+#frontpage img{
+    width: 48px;
+    margin-bottom: 12px;
+}
+
+#navBar{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+
+#navBar a{
+    font-family: SarpanchMedium;
+    text-decoration: none;
+    color: #EECDDF;
+    font-size: 16px;
+    line-height: 76.5%;
+    /* or 12px */
+
+    text-align: center;
+    transition: all 0.15s ease-in;
+}
+
+#navBar a:hover{
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.19em;
+    transition: all 0.15s ease-in;
+}
+
+footer{
+    background: #ffff;
+}
+
+#mainFooter{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+@media only screen and (max-width: 1020px){
+    #mainFooter{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    footer{
+        padding-left: 16px;
+    }
+    #subFooter{
+        margin-left: -16px;
+    }
+}
+
+.footer-header{
+    font-family: SarpanchExtraBold;
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #1e1f2c;
+}
+
+#payments{
+    width: 450px;
+}
+
+#payments img{
+    width: 450px;
+}
+
+@media only screen and (max-width: 500px){
+    #payments img{
+        width: 250px;
+    }
+}
+
+#SoMe{
+    width: 450px;
+}
+
+#SoMeContainer{
+    display: flex;
+    gap: 48px;
+}
+
+#trustpilot{
+    width: 450px;
+}
+
+#trustpilotContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trustpilot p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: #1E1F2C;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+#support{
+    height: auto;
+    width: 450px;
+}
+
+#Els{
+    display: flex;
+    flex-direction: row;
+    row-gap: 16px;
+    column-gap: 80px;
+    flex-wrap: wrap;
+}
+
+.elsSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 166px;
+}
+
+.supEl{
+    display: flex;
+    gap: 29px;
+}
+
+.supEl a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.025em;
+
+    color: #1E1F2C;
+}
+
+#subFooter{
+    padding: 12px 12px 12px;
+    background: #1e1f2c;
+}
+
+#subFooter p{
+    width: 100%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #EECDDF;
+}
+
+@media only screen and (max-width: 704px){
+    .desktop{
+        display: none !important;
+    }
+    .mobile{
+        display: block;
+    }
+
+    #mobileNav{
+        padding: 16px 16px 16px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo{
+        width: 48px;
+    }
+}
+
+@media only screen and (min-width: 705px)  {
+    .mobile{
+        display: none !important;
+    }
+    .desktop{
+        display: block;
+    }
+}
+
+#gap{
+    height: 500px;
+}
