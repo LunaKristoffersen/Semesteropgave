@@ -25,8 +25,8 @@
 
 body{
     background-color: #1e1f2c;
-    background-image: url("../images/asfalt-light.png"); /*Image obtained from: https://www.transparenttextures.com/*/
     margin: 0;
+    overflow-x: hidden;
 }
 
 #deskNav{

@@ -1,0 +1,296 @@
+#texture{
+    position: absolute;
+    height: 127vh;
+    width: 110vw;
+    background-image: url("../images/asfalt-light.png"); /*Image obtained from: https://www.transparenttextures.com/*/
+
+}
+
+.pageDivider{
+    width: 110vw;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.pageDivider img{
+    height: 1232px;
+    margin-top: -500px;
+}
+
+#product{
+    width: 953px;
+    margin: 0 auto;
+}
+
+#product pre{
+    font-family: SarpanchMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: rgba(238, 205, 223, 0.7);
+}
+
+#mainProduct{
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+#mainImage{
+    width: 430px;
+}
+
+#productUI{
+    width: 450px;
+}
+
+#productUI h2{
+    font-family: SarpanchRegular;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #EECDDF;
+    margin: 0;
+}
+
+#productUI h1{
+    font-family: SarpanchExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 83.5%;
+    /* identical to box height, or 27px */
+
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+    margin: 64px 0px 64px 0px;
+}
+
+#productActions{
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    gap: 8px;
+}
+
+#productActions select{
+    height: 58px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+    text-transform: capitalize;
+
+    color: #EECDDF;
+    border: none;
+    background: none;
+    border: 1px solid #EECDDF;
+}
+
+#productActions select option{
+    background-color: #1E1F2C;
+    border: 1px solid #EECDDF;
+}
+
+#productActions button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-color: #EECDDF;
+    opacity: 100%;
+    transition: all 0.1s ease-in-out;
+}
+
+#productActions button:hover{
+    opacity: 70%;
+    transition: all 0.1s ease-in-out;
+}
+
+#productActions button p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+
+    color: #1E1F2C;
+}
+
+#persuasive{
+    margin-top: 64px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.perEl{
+    display: flex;
+    gap: 24px;
+}
+
+.perEl p{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#recommendations{
+    margin-top: -120px;
+    padding-top: 185px;
+    padding-bottom: 80px;
+    background-color: #EECDDF;
+}
+
+#recMain{
+    width: 953px;
+    margin: 0 auto;
+}
+
+#recHeader h2{
+    margin: 0;
+    font-family: 'Sarpanch Medium';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: rgba(30, 31, 44, 0.7);
+}
+
+#recHeader h1{
+    margin: 0;
+    font-family: 'Sarpanch ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #1E1F2C;
+}
+
+#recContainer{
+    display: flex;
+    gap: 64px;
+    margin-top: 32px;
+    width: 2272px;
+    
+}
+
+.recProduct{
+    z-index: 1;
+    width: 250px;
+    opacity: 100%;
+    transition: all 0.1s ease-in-out;
+}
+
+.recProduct:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: all 0.1s ease-in-out;
+}
+
+.recProduct img{
+    height: 350px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.recProduct h2{
+    margin: 0;
+    margin-top: -4px;
+    font-family: 'Sarpanch Medium';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: rgba(30, 31, 44, 0.7);
+}
+
+.recProduct h1{
+    margin: 0;
+    margin-top: -12px;
+    font-family: 'Sarpanch ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #1E1F2C;
+}
+
+.recProduct p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0%;
+    /* or 0px */
+
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+
+    color: #1E1F2C;
+}
+
+@media only screen and (max-width: 1010px){
+    #recommendations{
+        width: 100% !important;
+        overflow-x: hidden;
+        padding-left: 16px;
+    }
+    #product{
+        width: 90% !important;
+    }
+    #product pre{
+        width: 100%;
+        height: 40px;
+    }
+    #mainProduct{
+        justify-content: center;
+    }
+}
