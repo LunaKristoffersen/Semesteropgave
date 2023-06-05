@@ -1,0 +1,8 @@
+#texture{
+    position: absolute;
+    height: 380vh;
+    width: 100vw;
+    background-image: url("../images/asfalt-light.png"); /*Image obtained from: https://www.transparenttextures.com/*/
+
+}
+
