@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> <!--Krav af opgavebeskrivelse-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/skeleton-stylesheet.css">
     <link rel="stylesheet" href="css/magasin.css">
+    <script src="mobile-nav.js"></script>
     <title>Magasin - LowPress</title>
 </head>
 <body>
 
-    <nav class="desktop" id="deskNav">
+    <!--NAV SKREVET AF LUKAS-->
+    <div class="mobile" id="mobileMenu" style="display: none;">
+        <div id="mobileMenuContainer">
+            <div id="mobileMenuClose">
+                x
+            </div>
+            <nav id="mobileMenuNav">
+                <a href="produktoverblik.html">SHOP</a>
+                <a href="">Kurv (0)</a>
+                <a href="magazin.html">Magasin</a>
+                <a href="about.html">Om Os</a>
+                <a href="">Samarbejde</a>   
+            </nav>
+        </div>
+    </div>
+    
+    <nav class="desktop foreground" id="deskNav">
         <div id="frontpage">
-            <img src="images/LowPress_Logo_Pink.svg" alt="LowPress' unikke pinke logo">
+            <a href="index.html"><img src="images/LowPress_Logo_Pink.svg" alt="LowPress' unikke pinke logo"></a>
         </div>
         <div id="navBar">
             <a href="">Samarbejde</a>
-            <a href="" style="color:#F4E3ED;">Magasin</a>
-            <a href="">SHOP</a>
-            <a href="">Ønskeliste (0)</a>
+            <a href="magazin.html">Magasin</a>
+            <a href="produktoverblik.html" style="color:#F4E3ED;">SHOP</a>
+            <a href="about.html">Om Os</a>
             <a href="">Kurv (0)</a>
         </div>
     </nav>
     <nav class="mobile" id="mobileNav">
-        <img src="images/LowPress_Logo_Pink.svg" alt="LowPress' unikke pinke logo" id="logo">
-        <img src="images/Burgermenu_ikon.svg" alt="Ikon for burgermenu" id="burgermenu">
+        <a href="index.html"><img src="images/LowPress_Logo_Pink.svg" alt="LowPress' unikke pinke logo" id="logo"></a>
+        <img src="images/Burgermenu_ikon.svg" alt="Ikon for burgermenu" id="burgermenu" style="cursor: pointer;">
     </nav>
     
     <a href="artikel.html"><div id="lowpress"></div></a>
@@ -157,5 +175,4 @@
         
     </footer>
 </body>
-<script src="js-thais.js"></script>
 </html>
