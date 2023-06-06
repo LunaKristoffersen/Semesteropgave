@@ -251,7 +251,7 @@ footer{
     }
 
     #mobileMenuNav a{
-        font-family: 'Sarpanch';
+        font-family: SarpanchRegular;
         font-style: normal;
         font-weight: 500;
         font-size: 32px;
@@ -271,6 +271,10 @@ footer{
         color: #1E1F2C;
         left: 317px;
         top: -65px;
+    }
+
+    #texture{
+        width: 100vw !important;
     }
 }
 
